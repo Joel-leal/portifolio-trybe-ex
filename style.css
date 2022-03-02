@@ -1,0 +1,41 @@
+.container{
+  margin: 0 auto;
+}
+.head{
+height: 200px;
+width: 800px;
+/* background-color: blue; */
+margin: 0 auto;
+
+}
+.img{
+  border-radius: 100px;
+  background-image: url("./image/Screenshot_12.png");
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-top: 10px;
+}
+.name{
+  float:inherit;
+  text-align: center;
+  height: 200px;
+  width: 100%;
+  padding: 10px;
+}
+.text-corp{
+  width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+a:link, a:visited, a:active{
+  text-decoration: none;
+  color: rgb(80, 92, 197);
+}
+a:hover {
+	text-decoration: underline overline;
+	color:rgb(35, 150, 226);
+	}
